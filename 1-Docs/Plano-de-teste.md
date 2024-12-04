@@ -156,7 +156,36 @@ Este plano de testes visa validar a usabilidade e funcionalidades principais do 
 - **Critérios de Aprovação:** Sistema exibe produtos corretamente com base na busca.  
 
 ---
+## **Casos de Teste e Classes de Equivalência**
 
+| **Caso de Teste**                       | **Entrada**                | **Classe Válida**                                                              | **Classe Inválida**                                                     |
+|-----------------------------------------|----------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| **1 - Finalizar pedido com cupom de desconto** | Cupom de Desconto          | Cupom válido e ativo (ex: "DESCONTO10", "FRETEGRATIS")                         | Cupom inválido ou expirado (ex: "DESCONTO15", "INVALIDO", vazio)       |
+|                                         | Valor do Pedido            | Pedido com valor superior a R$50,01                                            | Pedido com valor igual ou inferior a R$50,00                            |
+|                                         | Status do Cupom            | Cupom ativo                                                                   | Cupom expirado ou inativo                                               |
+| **2 - Cadastro de produto**            | Nome do Produto            | Nome válido com até 50 caracteres                                              | Nome vazio ou com mais de 50 caracteres                                 |
+|                                         | Preço do Produto           | Preço positivo superior a 0 (ex: R$10,00, R$200,00)                           | Preço negativo ou igual a 0 (ex: -R$10,00, R$0,00)                     |
+|                                         | Imagem do Produto          | Imagem no formato JPEG ou PNG com tamanho aceitável (ex: 1MB)                  | Imagem no formato inválido (ex: GIF, BMP) ou imagem de tamanho muito grande (>10MB) |
+| **3 - Cadastro de usuário**            | Nome Completo              | Nome válido com até 100 caracteres                                             | Nome vazio ou muito curto (menos de 3 caracteres)                       |
+|                                         | E-mail                     | E-mail com formato correto (ex: "usuario@dominio.com")                         | E-mail inválido ou vazio (ex: "usuario@dominio", "usuario@.com", vazio) |
+|                                         | Senha                      | Senha válida com pelo menos 8 caracteres, incluindo números e letras           | Senha com menos de 8 caracteres ou sem números/ letras                   |
+| **4 - Adicionar item ao carrinho**     | Quantidade de Itens        | Quantidade positiva e maior que 0 (ex: 1, 2, 3)                               | Quantidade negativa ou igual a 0 (ex: -1, 0)                           |
+|                                         | Produto                    | Produto disponível no estoque                                                 | Produto fora de estoque                                                 |
+| **5 - Finalizar pedido sem cupom**     | Pedido com valor superior a R$50,01  | Pedido com valor superior a R$50,01                                            | Pedido com valor inferior ou igual a R$50,00                            |
+|                                         | Status de pagamento        | Pagamento aprovado                                                            | Pagamento reprovado                                                     |
+| **6 - Atualizar dados do produto**     | Nome do Produto            | Nome válido com até 50 caracteres                                              | Nome vazio ou com mais de 50 caracteres                                 |
+|                                         | Preço do Produto           | Preço superior a 0,00                                                          | Preço negativo ou 0,00                                                   |
+|                                         | Quantidade disponível      | Quantidade de produto maior que 0                                              | Quantidade de produto igual a 0                                         |
+| **7 - Remover produto do carrinho**    | Produto no Carrinho        | Produto presente no carrinho de compras                                        | Produto não está no carrinho                                            |
+|                                         | Quantidade no Carrinho     | Quantidade maior que 0                                                        | Quantidade igual a 0 ou negativa                                        |
+| **8 - Alterar endereço de entrega**    | Endereço de Entrega        | Endereço completo e válido (ex: Rua X, nº 100, Bairro Y, Cidade Z)             | Endereço inválido ou incompleto (ex: Rua X, nº 100, Bairro Y)          |
+|                                         | CEP                        | CEP válido (ex: 12345-678)                                                    | CEP inválido (ex: 12345678, vazio)                                      |
+| **9 - Cadastro de pagamento**          | Cartão de Crédito          | Número de cartão válido (ex: 4111 1111 1111 1111)                             | Número de cartão inválido (ex: 1234 5678 8765 4321, vazio)            |
+|                                         | Data de Vencimento         | Data de vencimento válida (ex: 12/25)                                          | Data de vencimento inválida (ex: 13/99, mês 0)                         |
+| **10 - Buscar produtos no catálogo**   | Palavra-chave              | Palavra-chave válida (ex: "camisa", "notebook", "smartphone")                  | Palavra-chave inválida ou vazia (ex: "1234", vazio)                     |
+|                                         | Categoria                  | Categoria válida (ex: "eletrônicos", "roupas", "acessórios")                   | Categoria inválida ou não existente (ex: "brinquedos", "gadgets")      |
+
+---
 ## **Formulário de Aceitação - Escala Likert**
 As perguntas a seguir usarão a escala de 1 (Discordo totalmente) a 5 (Concordo totalmente).  
 
