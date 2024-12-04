@@ -1,4 +1,4 @@
-# ** Plano de Testes - Trabalho Prático II**  
+# **Plano de Testes - Trabalho Prático II**  
 **Disciplina:** Teste, Verificação e Validação de Software  
 **Docente:** Andrey Rodrigues  
 **Discentes:** Illgner Anderson, João Victor Vasconcelos, Victor Gabriel Araújo e Victor Queiroz Barbosa  
