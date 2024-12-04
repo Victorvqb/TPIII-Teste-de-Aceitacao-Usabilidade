@@ -1,91 +1,58 @@
-# **Plano de Testes - GM Pedidos**
+# ** Plano de Testes - Trabalho Prático II**  
+**Disciplina:** Teste, Verificação e Validação de Software  
+**Docente:** Andrey Rodrigues  
+**Discentes:** Illgner Anderson, João Victor Vasconcelos, Victor Gabriel Araújo e Victor Queiroz Barbosa  
 
-## **Informações Gerais**
-- **Nome do Projeto:** GM Pedidos  
-- **Versão do Plano de Teste:** 1.0  
-- **Data de Criação:** 04/12/2024  
-- **Gerente de Testes:** Victor Queiroz Barbosa  
-- **Equipe de Testes:** Illgner Anderson, João Victor Vasconcelos, Victor Gabriel Araújo e Victor Queiroz Barbosa  
+Este repositório documenta o **Trabalho Prático II** da disciplina **Teste, Verificação e Validação de Software**, que consiste na criação de um **Plano de Testes** completo e na execução de testes baseados nas funcionalidades críticas da aplicação **GM Pedidos**.  
 
----
-
-## **Escopo e Objetivo**
-Este plano de testes visa validar a usabilidade e funcionalidades principais do aplicativo **GM Pedidos**, desenvolvido em Delphi, focado no gerenciamento de pedidos de delivery. Serão avaliadas a facilidade de uso, navegabilidade, e eficiência das operações de cadastro de produtos, definição de preços, imagens e configurações do negócio.  
+O objetivo principal é garantir que o sistema funcione de acordo com os requisitos especificados e que atenda às expectativas do usuário final, avaliando aspectos funcionais e de usabilidade.  
 
 ---
 
-## **Características do Produto a Serem Testadas**
-- Cadastro de produtos (nome, preço, imagem).  
+## **Descrição do Trabalho**
+O trabalho foi dividido em três etapas principais:  
+1. **Planejamento dos Testes:**  
+   - Criação de um plano de testes seguindo o modelo disponibilizado.  
+   - Definição de escopo, características a serem testadas, cronograma, riscos associados e equipe responsável.  
+
+2. **Especificação dos Casos de Teste:**  
+   - Desenvolvimento de 10 casos de teste distintos, utilizando abordagem de **caixa preta**.  
+   - Aplicação de técnicas como **particionamento por classes de equivalência** e **grafos de causa e efeito** para garantir a cobertura dos principais fluxos do sistema.  
+
+3. **Execução dos Testes e Formulário de Aceitação:**  
+   - Os testes serão realizados por quatro membros da equipe entre os dias **05/12/2024 e 08/12/2024**.  
+   - Após os testes, será aplicado um formulário de aceitação utilizando a **escala Likert** para avaliar a experiência de uso.  
+
+---
+
+## **Aplicação Testada**
+A aplicação **GM Pedidos** é um sistema desenvolvido em **Delphi**, voltado para a gestão de pedidos de delivery. Suas funcionalidades principais incluem:  
+- Cadastro e gerenciamento de produtos (nome, preço e imagem).  
 - Configuração de informações do negócio (nome e imagem).  
-- Navegação entre telas e menus.  
-- Validação de entradas (dados válidos e inválidos).  
-- Feedback visual e mensagens de erro.  
+- Navegação entre menus e telas.  
 
 ---
 
-## **Abordagem a Ser Utilizada**
-| **Descrição**           | **Detalhes**                  |
-|--------------------------|-------------------------------|
-| **Objetivo**             | Avaliar usabilidade e funcionalidades críticas. |
-| **Técnica**              | Caixa Preta                  |
-| **Estágio do Teste**     | Aceitação                    |
-| **Método**               | Teste de usabilidade com ensaio de interação. |
-| **Ferramentas Utilizadas** | WebCam ou celular para gravação do usuário. |
+## **Casos de Teste Implementados**
+Os 10 casos de teste criados focam nas funcionalidades críticas da aplicação, cobrindo cenários de entradas válidas, inválidas e fluxos de interação do usuário. Entre os testes realizados, destacam-se:  
+- Cadastro de produtos com informações completas e incompletas.  
+- Validação de dados inválidos, como preços negativos e campos obrigatórios.  
+- Alteração de configurações do negócio.  
+- Navegação entre telas e funcionalidade de busca.  
+Os casos de teste foram descritos em detalhes no plano, incluindo entradas, saídas esperadas, critérios de aprovação/rejeição e dependências.  
 
 ---
 
-## **Itens a Serem Testados**
-- Cadastro, edição e exclusão de produtos.  
-- Configuração das informações do negócio.  
-- Validação de dados inválidos (campos obrigatórios).  
-- Navegação entre telas.  
+## **Formulário de Aceitação**
+Após a execução dos testes, será aplicado um formulário com **15 perguntas** baseadas em aspectos de usabilidade, navegabilidade e eficiência do sistema. O objetivo é coletar feedback qualitativo sobre a experiência do usuário, contribuindo para a validação do produto.  
 
 ---
 
-## **Cronograma**
-| **Etapa**                                | **Período**            |  
-|------------------------------------------|------------------------|  
-| Revisão final e configuração do ambiente | **04/12/2024**         |  
-| Execução dos testes                      | **05/12/2024 a 08/12/2024** |  
-| Análise dos resultados e relatórios      | **08/12/2024**         |  
-| Aplicação do formulário (aceitação)      | **08/12/2024**         |  
-
----
-
-## **Pessoal Responsável**
-- **Gerente de Testes:** Victor Queiroz Barbosa  
-- **Testadores:** Illgner Anderson, João Victor Vasconcelos, Victor Gabriel Araújo e Victor Queiroz Barbosa  
-
----
-
-## **Riscos Associados**
-- Falhas de gravação nos dispositivos (webcam/celular).  
-- Erros inesperados no ambiente de testes.  
-- Limitado número de testadores para cobrir fluxos adicionais.  
-
----
-
-## **Especificação dos Casos de Testes**
-### **Caso de Teste 1**  
-- **Identificador:** CT-01  
-- **Descrição:** Cadastro de produto com todas as informações válidas.  
-- **Entradas:** Nome: "Produto A", Preço: R$50, Imagem: "imagem.jpg".  
-- **Resultados Esperados:** Produto cadastrado com sucesso e listado na tela principal.  
-- **Critérios de Aprovação:** Informações salvas corretamente e visíveis na interface.  
-
-### **Caso de Teste 2**  
-- **Identificador:** CT-02  
-- **Descrição:** Cadastro de produto sem preencher o nome.  
-- **Entradas:** Nome: "", Preço: R$50, Imagem: "imagem.jpg".  
-- **Resultados Esperados:** Mensagem de erro indicando o campo obrigatório.  
-
-... *(Continua com os 10 casos de teste já detalhados.)*  
-
----
-
-## **Formulário de Aceitação - Escala Likert**
+## **Tecnologias Utilizadas**
+- **Delphi:** Ferramenta utilizada no desenvolvimento da aplicação.  
+- **GitHub:** Repositório para documentação e colaboração do trabalho.  
+- **Google Forms:** Utilizado para aplicação do formulário de aceitação.  
 
 
----
 
-Este plano será atualizado conforme a execução do teste e os dados obtidos forem analisados.
+
