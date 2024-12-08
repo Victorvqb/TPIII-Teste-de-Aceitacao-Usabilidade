@@ -186,7 +186,7 @@ Este plano de testes visa validar a usabilidade e funcionalidades principais do 
 |                                         | Categoria                  | Categoria válida (ex: "eletrônicos", "roupas", "acessórios")                   | Categoria inválida ou não existente (ex: "brinquedos", "gadgets")      |
 
 ---
-## **Formulário de Aceitação - Escala Likert**
+## **Formulário de Aceitação**
 As perguntas a seguir usarão a escala de 1 (Discordo totalmente) a 5 (Concordo totalmente).  
 
 ### **Perguntas**
