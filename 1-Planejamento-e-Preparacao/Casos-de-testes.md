@@ -2,7 +2,6 @@
 
 ## **Especificação dos Casos de Teste**
 
-
 ### **Caso de Teste 1**  
 **Identificador:** CT-01  
 **Descrição:** Realizar login no sistema com os dados fornecidos.  
