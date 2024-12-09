@@ -3,7 +3,7 @@ As perguntas a seguir usarão a escala de 1 (Discordo totalmente) a 5 (Concordo 
 | **Escala de Classificação** |
 |-----------------------------|
 | Discordo Totalmente | Discordo Parcialmente | Neutro | Concordo Parcialmente | Concordo Totalmente |
-|-----------------------------|---------------------|-----------------------|--------|-----------------------|---------------------|
+|---------------------|-----------------------|--------|-----------------------|---------------------|
 
 
 
