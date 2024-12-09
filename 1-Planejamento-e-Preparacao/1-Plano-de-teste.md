@@ -122,6 +122,82 @@ Os participantes foram instruídos a responder de acordo com a escala Likert, on
 | ...        | ...              | ...                  | ...                      | ...                         | ...                                     |
 
 ---
+## **Dados Quantitativos**
+
+# Dados Quantitativos
+
+## Tarefa 1
+| Participante     | M1 - Tempo Gasto | M2 - Número de Erros | M3 - Número de Confusão | M4 - Número de Solicitação de Ajuda |
+|------------------|------------------|-----------------------|--------------------------|-------------------------------------|
+| Participante 1   | 40               | 0                     | 0                        | 0                                   |
+| Participante 2   | 31               | 0                     | 0                        | 0                                   |
+| Participante 3   | 31               | 0                     | 0                        | 0                                   |
+| Participante 4   | 25               | 0                     | 0                        | 0                                   |
+| **Mediana**      | **31**           | **0**                 | **0**                    | **0**                               |
+
+## Tarefa 2
+| Participante     | M1 - Tempo Gasto | M2 - Número de Erros | M3 - Número de Confusão | M4 - Número de Solicitação de Ajuda |
+|------------------|------------------|-----------------------|--------------------------|-------------------------------------|
+| Participante 1   | 84               | 0                     | 0                        | 1                                   |
+| Participante 2   | 60               | 0                     | 1                        | 0                                   |
+| Participante 3   | 109              | 0                     | 0                        | 0                                   |
+| Participante 4   | 64               | 0                     | 0                        | 0                                   |
+| **Mediana**      | **62**           | **0**                 | **0**                    | **0**                               |
+
+## Tarefa 3
+| Participante     | M1 - Tempo Gasto | M2 - Número de Erros | M3 - Número de Confusão | M4 - Número de Solicitação de Ajuda |
+|------------------|------------------|-----------------------|--------------------------|-------------------------------------|
+| Participante 1   | 147              | 0                     | 1                        | 1                                   |
+| Participante 2   | 56               | 0                     | 1                        | 0                                   |
+| Participante 3   | 108              | 0                     | 2                        | 0                                   |
+| Participante 4   | 32               | 0                     | 0                        | 0                                   |
+| **Mediana**      | **82**           | **0**                 | **1**                    | **0**                               |
+
+## Tarefa 4
+| Participante     | M1 - Tempo Gasto | M2 - Número de Erros | M3 - Número de Confusão | M4 - Número de Solicitação de Ajuda |
+|------------------|------------------|-----------------------|--------------------------|-------------------------------------|
+| Participante 1   | 84               | 4                     | 1                        | 0                                   |
+| Participante 2   | 100              | 1                     | 1                        | 0                                   |
+| Participante 3   | 99               | 2                     | 0                        | 0                                   |
+| Participante 4   | 47               | 2                     | 0                        | 0                                   |
+| **Mediana**      | **91.5**         | **3**                 | **0.5**                  | **0**                               |
+
+## Tarefa 5
+| Participante     | M1 - Tempo Gasto | M2 - Número de Erros | M3 - Número de Confusão | M4 - Número de Solicitação de Ajuda |
+|------------------|------------------|-----------------------|--------------------------|-------------------------------------|
+| Participante 1   | 17               | 0                     | 0                        | 0                                   |
+| Participante 2   | 42               | 0                     | 1                        | 0                                   |
+| Participante 3   | 10               | 0                     | 0                        | 0                                   |
+| Participante 4   | 19               | 0                     | 0                        | 0                                   |
+| **Mediana**      | **18**           | **0**                 | **0**                    | **0**                               |
+
+## Tarefa 6
+| Participante     | M1 - Tempo Gasto | M2 - Número de Erros | M3 - Número de Confusão | M4 - Número de Solicitação de Ajuda |
+|------------------|------------------|-----------------------|--------------------------|-------------------------------------|
+| Participante 1   | 57               | 0                     | 0                        | 0                                   |
+| Participante 2   | 65               | 0                     | 0                        | 0                                   |
+| Participante 3   | 52               | 0                     | 0                        | 0                                   |
+| Participante 4   | 19               | 0                     | 0                        | 0                                   |
+| **Mediana**      | **54.5**         | **0**                 | **0**                    | **0**                               |
+
+## Tarefa 7
+| Participante     | M1 - Tempo Gasto | M2 - Número de Erros | M3 - Número de Confusão | M4 - Número de Solicitação de Ajuda |
+|------------------|------------------|-----------------------|--------------------------|-------------------------------------|
+| Participante 1   | 102              | 1                     | 1                        | 0                                   |
+| Participante 2   | 51               | 0                     | 0                        | 0                                   |
+| Participante 3   | 77               | 1                     | 1                        | 0                                   |
+| Participante 4   | 75               | 1                     | 1                        | 0                                   |
+| **Mediana**      | **76**           | **1**                 | **1**                    | **0**                               |
+
+## Tarefa 8
+| Participante     | M1 - Tempo Gasto | M2 - Número de Erros | M3 - Número de Confusão | M4 - Número de Solicitação de Ajuda |
+|------------------|------------------|-----------------------|--------------------------|-------------------------------------|
+| Participante 1   | 223              | 2                     | 2                        | 0                                   |
+| Participante 2   | 206              | 0                     | 1                        | 0                                   |
+| Participante 3   | 95               | 1                     | 1                        | 0                                   |
+| Participante 4   | 120              | 0                     | 1                        | 0                                   |
+| **Mediana**      | **163**          | **0.5**               | **1**                    | **0**                               |
+
 
 ## **Dados Qualitativos**
 
@@ -165,7 +241,8 @@ Os participantes foram instruídos a responder de acordo com a escala Likert, on
 
 # Análise Geral
 
-Os dados qualitativos indicam que os participantes enfrentaram dificuldades significativas em diversas áreas de usabilidade do sistema. Os principais problemas identificados foram:
+
+Os dados indicam que os participantes enfrentaram dificuldades significativas em diversas áreas de usabilidade do sistema. Os principais problemas identificados foram:
 
 1. **Confusão na Navegação**:
    - Muitos participantes relataram dificuldades em encontrar funcionalidades importantes, como a edição de horários e a emissão de relatórios. A falta de clareza na localização dessas opções aumenta a carga cognitiva dos usuários e prejudica a eficiência e a fluidez da interação com o sistema.
