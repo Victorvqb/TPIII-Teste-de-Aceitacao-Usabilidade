@@ -1,207 +1,202 @@
-# **Plano de Testes - GM Pedidos**
+# Planejamento do Teste de Usabilidade
 
-## **Informações Gerais**
-- **Nome do Projeto:** GM Pedidos  
-- **Versão do Plano de Teste:** 1.0  
-- **Data de Criação:** 04/12/2024  
-- **Gerente de Testes:** Victor Queiroz Barbosa  
-- **Equipe de Testes:** Illgner Anderson, João Victor Vasconcelos, Victor Gabriel Araújo e Victor Queiroz Barbosa  
+## Descrição
 
----
+**Nome do produto que está sendo testado:**  
+GM Pedidos ([Link do Produto](https://versao.gmpedidos.com/setup-gmpedidos.exe))
 
-## **Escopo e Objetivo**
-Este plano de testes visa validar a usabilidade e funcionalidades principais do aplicativo **GM Pedidos**, desenvolvido em Delphi, focado no gerenciamento de pedidos de delivery. Serão avaliadas a facilidade de uso, navegabilidade e eficiência das operações de cadastro de produtos, definição de preços, imagens e configurações do negócio.  
+**Descrição do sistema:**  
+Sistema voltado para a gestão de pedidos de delivery. Suas funcionalidades principais incluem o cadastro e gerenciamento de produtos e a configuração de informações do negócio.
 
----
+**Data do teste:**  
+08/12/2024
 
-## **Características do Produto a Serem Testadas**
-- Cadastro de produtos (nome, preço, imagem).  
-- Configuração de informações do negócio (nome e imagem).  
-- Navegação entre telas e menus.  
-- Validação de entradas (dados válidos e inválidos).  
-- Feedback visual e mensagens de erro.  
+**Localização do Teste:**  
+Google Meet
 
----
+**Formato do teste:**  
+Remoto
 
-## **Abordagem a Ser Utilizada**
-| **Descrição**           | **Detalhes**                  |
-|--------------------------|-------------------------------|
-| **Objetivo**             | Avaliar usabilidade e funcionalidades críticas. |
-| **Técnica**              | Caixa Preta                  |
-| **Estágio do Teste**     | Aceitação                    |
-| **Método**               | Teste de usabilidade com ensaio de interação. |
-| **Ferramentas Utilizadas** | WebCam ou celular para gravação do usuário. |
+**Tempo de execução:**  
+15 minutos
+
+**Discentes:**  
+- Victor Gabriel  
+- Victor Barbosa  
+- Illgner Anderson  
+- João Victor
 
 ---
 
-## **Itens a Serem Testados**
-- Cadastro, edição e exclusão de produtos.  
-- Configuração das informações do negócio.  
-- Validação de dados inválidos (campos obrigatórios).  
-- Navegação entre telas.  
+## Cronograma
+
+| Descrição                                | Data        |
+|------------------------------------------|-------------|
+| Planejar e Preparar o Teste de Usabilidade | 23/11/2024  |
+| Elaboração do Formulário na plataforma “Forms” | 23/11/2024  |
+| Criação do repositório “GitHub”          | 23/11/2024  |
+| Teste piloto                             | 08/12/2024  |
+| Execução do teste de usabilidade         | 08/12/2024  |
+| Análise dos Resultados                   | 09/12/2024  |
+| Revisão e Entrega                        | 09/12/2024  |
 
 ---
 
-## **Cronograma**
-| **Etapa**                                | **Período**            |  
-|------------------------------------------|------------------------|  
-| Revisão final e configuração do ambiente | **04/12/2024**         |  
-| Execução dos testes                      | **05/12/2024 a 08/12/2024** |  
-| Análise dos resultados e relatórios      | **08/12/2024**         |  
-| Aplicação do formulário (aceitação)      | **08/12/2024**         |  
+## Objetivo
+
+O objetivo principal do teste é avaliar se o sistema atende às expectativas do usuário final e os requisitos de usabilidade, com foco nos seguintes aspectos:
+
+- **Eficiência**: Medir o tempo gasto e o sucesso nas tarefas realizadas.
+- **Eficácia**: Avaliar se os usuários conseguem realizar as tarefas sem dificuldades significativas.
+- **Satisfação**: Captar percepções gerais sobre a experiência com o sistema.
 
 ---
 
-## **Pessoal Responsável**
-- **Gerente de Testes:** Victor Queiroz Barbosa  
-- **Testadores:** Illgner Anderson, João Victor Vasconcelos, Victor Gabriel Araújo e Victor Queiroz Barbosa  
+## Público-Alvo
+
+O público-alvo do teste é composto por universitários do Centro de Tecnologia, com idades entre 18 e 45 anos, devido à sua familiaridade com tecnologias digitais e experiência com esse tipo de aplicação.
 
 ---
 
-## **Riscos Associados**
-- Falhas de gravação nos dispositivos (webcam/celular).  
-- Erros inesperados no ambiente de testes.  
-- Limitado número de testadores para cobrir fluxos adicionais.  
+## Tarefas
+
+### Tarefas realizadas pelos usuários:
+
+1. Login com dados
+2. CRUD Atendente
+3. Editar Horário de Funcionamento
+4. CRUD Bairro
+5. Mudar status da empresa para “Estamos Fechado no Momento”
+6. CRUD Categoria
+7. Emitir Relatório
+8. CRUD Produto
+
+| ID  | Descrição de Tarefas |
+| --- | -------------------- |
+| 01  | Realizar login no sistema com os seguintes dados: Telefone: 92984383676, Senha: 123 |
+| 02  | Cadastrar um Atendente, Editar o nome desse Atendente e Deletar o Atendente que acabou de criar |
+| 03  | Editar Horário de funcionamento |
+| 04  | Cadastrar um Bairro, Editar o nome desse Bairro e Deletar o Bairro que acabou de criar |
+| 05  | Mudar status da empresa para “Estamos Fechado no Momento” |
+| 06  | Cadastrar uma Categoria, Editar o nome dessa Categoria e Deletar a Categoria que acabou de criar |
+| 07  | Emitir Relatório geral de Novembro |
+| 08  | Cadastrar um Produto, Editar o nome desse Produto e Deletar o Produto que acabou de criar |
 
 ---
 
-## **Especificação dos Casos de Testes**
+## Questionário
 
-### **Caso de Teste 1**  
-- **Identificador:** CT-01  
-- **Descrição:** Cadastro de produto com todas as informações válidas.  
-- **Entradas:** Nome: "Produto A", Preço: R$50, Imagem: "imagem.jpg".  
-- **Resultados Esperados:** Produto cadastrado com sucesso e listado na tela principal.  
-- **Critérios de Aprovação:** Informações salvas corretamente e visíveis na interface.  
+Foi elaborado um questionário para avaliar a experiência de uso do GM Pedidos, utilizando conceitos de usabilidade. Os participantes responderam após realizar tarefas específicas do sistema, como login, CRUD de entidades e emissão de relatórios.
 
----
+O questionário pode ser acessado através deste [link](https://forms.gle/4sc46y743rQwMzEs7). Os participantes foram instruídos a responder usando a escala Likert, onde:
+- 1: Discordo Totalmente
+- 5: Concordo Totalmente
 
-### **Caso de Teste 2**  
-- **Identificador:** CT-02  
-- **Descrição:** Cadastro de produto sem preencher o nome.  
-- **Entradas:** Nome: "", Preço: R$50, Imagem: "imagem.jpg".  
-- **Resultados Esperados:** Mensagem de erro indicando o campo obrigatório.  
-- **Critérios de Aprovação:** Sistema exibe mensagem clara para o usuário.  
+### Escala de Classificação
+- Discordo Totalmente
+- Discordo Parcialmente
+- Neutro
+- Concordo Parcialmente
+- Concordo Totalmente
 
----
+**Perguntas**:
 
-### **Caso de Teste 3**  
-- **Identificador:** CT-03  
-- **Descrição:** Cadastro de produto com preço negativo.  
-- **Entradas:** Nome: "Produto B", Preço: -R$10, Imagem: "imagem.jpg".  
-- **Resultados Esperados:** Mensagem de erro indicando valor inválido.  
-- **Critérios de Aprovação:** Sistema não aceita o valor e informa ao usuário.  
-
----
-
-### **Caso de Teste 4**  
-- **Identificador:** CT-04  
-- **Descrição:** Alteração de nome do negócio.  
-- **Entradas:** Nome anterior: "Loja X", Nome novo: "Loja Y".  
-- **Resultados Esperados:** Nome alterado e exibido corretamente na interface.  
-- **Critérios de Aprovação:** Nome do negócio atualizado sem erros.  
+1. O processo de login foi fácil e direto.
+2. Foi fácil cadastrar um novo atendente.
+3. Alterar ou excluir bairros cadastrados foi intuitivo.
+4. Configurar ou alterar o horário de funcionamento foi simples.
+5. Alterar o status da empresa para “Estamos Fechado no Momento” foi simples e claro.
+6. A funcionalidade para emitir relatórios foi intuitiva e atendeu às expectativas.
+7. Cadastrar um novo produto foi simples e direto.
+8. Excluir produtos foi um processo rápido e claro.
+9. O aplicativo exibiu mensagens claras ao inserir dados inválidos ou realizar ações no sistema.
+10. Estou satisfeito com a experiência geral de uso do aplicativo para as tarefas testadas.
 
 ---
 
-### **Caso de Teste 5**  
-- **Identificador:** CT-05  
-- **Descrição:** Excluir produto do cadastro.  
-- **Entradas:** Produto selecionado: "Produto A".  
-- **Resultados Esperados:** Produto removido e não listado na tela.  
-- **Critérios de Aprovação:** Produto excluído com sucesso e interface atualizada.  
+## Métricas
+
+- **Tempo Gasto**: Quantidade de tempo em segundos que um participante leva para completar uma tarefa específica.
+- **Número de Erros**: Quantidade de vezes que o participante comete um erro ao realizar uma tarefa.
+- **Número de Confusão**: Quantidade de vezes que o participante demonstra incerteza sobre qual ação tomar a seguir.
+- **Número de Solicitação de Ajuda**: Quantidade de vezes que o participante precisa solicitar ajuda para completar uma tarefa.
+
+### Modelo de Tabela para Dados Quantitativos
+
+| Tarefa x    | Participante | M1 - Tempo Gasto | M2 - Número de Erros | M3 - Número de Confusão | M4 - Número de Solicitação de Ajuda |
+| ----------- | ------------ | ---------------- | -------------------- | ----------------------- | ----------------------------------- |
+| Nome do Participante | (tempo em segundos) | X | X | X |
+
+### Modelo de Tabela para Dados Qualitativos
+
+| ID  | Descrição do Problema     | Componente de Usabilidade Violado |
+| --- | ------------------------- | --------------------------------- |
+| 01  | Descrição do Problema      | Componente de Usabilidade Violado |
 
 ---
 
-### **Caso de Teste 6**  
-- **Identificador:** CT-06  
-- **Descrição:** Navegação entre telas do sistema.  
-- **Entradas:** Ações de clique nos menus.  
-- **Resultados Esperados:** Sistema alterna entre telas sem erros ou lentidão.  
-- **Critérios de Aprovação:** Navegação fluida e sem bugs.  
+## Preparação para o Teste
+
+### Recrutamento
+
+O recrutamento foi realizado através de convites presenciais em salas de aula e eventos acadêmicos.
+
+### Ambiente de Teste
+
+- **Plataforma**: Google Meet com gravação habilitada ou gravação de tela pelo facilitador.
+- **Equipamentos**: Computadores ou notebooks, navegador, microfone, webcam e conexão estável à internet.
+
+### Teste Piloto
+
+- **Tempo de duração**: 15 minutos
 
 ---
 
-### **Caso de Teste 7**  
-- **Identificador:** CT-07  
-- **Descrição:** Inserir imagem inválida no cadastro de produto.  
-- **Entradas:** Nome: "Produto C", Preço: R$30, Imagem: "arquivo.pdf".  
-- **Resultados Esperados:** Sistema rejeita imagem e exibe mensagem de erro.  
-- **Critérios de Aprovação:** Imagem inválida não é aceita.  
+## Análise dos Resultados
+
+### Dados Quantitativos
+
+| Tarefa x    | Participante | M1 - Tempo Gasto | M2 - Número de Erros | M3 - Número de Confusão | M4 - Número de Solicitação de Ajuda |
+| ----------- | ------------ | ---------------- | -------------------- | ----------------------- | ----------------------------------- |
+| Participante 1 | 40 | 0 | 0 | 0 |
+| Participante 2 | 31 | 0 | 0 | 0 |
+| Participante 3 | 31 | 0 | 0 | 0 |
+| Participante 4 | 25 | 0 | 0 | 0 |
+| Mediana | 31 | 0 | 0 | 0 |
+
+**Análise Qualitativa**
+
+**Participante 1: Clara Letícia**
+
+| ID  | Descrição do Problema                        | Fator de Usabilidade / Heurística Violada           |
+| --- | -------------------------------------------- | -------------------------------------------------- |
+| 01  | Existe somente opção de adicionar e remover horários de funcionamento | Facilidade de Aprendizado |
+| 02  | Não consigo excluir um bairro               | Facilidade de Aprendizado |
+| 03  | Participante não encontra produto após cadastro | Facilidade de Aprendizado |
+| 04  | Não consigo mudar o status da empresa       | Eficiência de Uso |
+| 05  | O aplicativo não exibe mensagens claras     | Prevenção de Erros |
+| 06  | Participante insatisfeito com a usabilidade | Satisfação |
 
 ---
 
-### **Caso de Teste 8**  
-- **Identificador:** CT-08  
-- **Descrição:** Cadastro de produto sem preencher o preço.  
-- **Entradas:** Nome: "Produto D", Preço: "", Imagem: "imagem.jpg".  
-- **Resultados Esperados:** Mensagem de erro indicando campo obrigatório.  
-- **Critérios de Aprovação:** Sistema impede cadastro sem preço válido.  
+## Resultados do Questionário
 
 ---
 
-### **Caso de Teste 9**  
-- **Identificador:** CT-09  
-- **Descrição:** Configuração de imagem do negócio.  
-- **Entradas:** Imagem válida: "logo.jpg".  
-- **Resultados Esperados:** Imagem salva e exibida corretamente.  
-- **Critérios de Aprovação:** Interface reflete a imagem configurada sem erros.  
+## Recomendações de Melhoria
+
+1. **Redesenho do Layout**: Organizar menus de forma mais intuitiva e destacar ações importantes.
+2. **Aprimoramento de Feedback ao Usuário**: Inserir mensagens de erro detalhadas e proativas, como “O bairro precisa ser desativado antes de excluir”.
 
 ---
 
-### **Caso de Teste 10**  
-- **Identificador:** CT-10  
-- **Descrição:** Pesquisa de produto na lista cadastrada.  
-- **Entradas:** Termo de busca: "Produto A".  
-- **Resultados Esperados:** Produto correspondente listado na tela.  
-- **Critérios de Aprovação:** Sistema exibe produtos corretamente com base na busca.  
+### Análise Quantitativa
 
----
-## **Casos de Teste e Classes de Equivalência**
-
-| **Caso de Teste**                       | **Entrada**                | **Classe Válida**                                                              | **Classe Inválida**                                                     |
-|-----------------------------------------|----------------------------|---------------------------------------------------------------------------------|-------------------------------------------------------------------------|
-| **1 - Finalizar pedido com cupom de desconto** | Cupom de Desconto          | Cupom válido e ativo (ex: "DESCONTO10", "FRETEGRATIS")                         | Cupom inválido ou expirado (ex: "DESCONTO15", "INVALIDO", vazio)       |
-|                                         | Valor do Pedido            | Pedido com valor superior a R$50,01                                            | Pedido com valor igual ou inferior a R$50,00                            |
-|                                         | Status do Cupom            | Cupom ativo                                                                   | Cupom expirado ou inativo                                               |
-| **2 - Cadastro de produto**            | Nome do Produto            | Nome válido com até 50 caracteres                                              | Nome vazio ou com mais de 50 caracteres                                 |
-|                                         | Preço do Produto           | Preço positivo superior a 0 (ex: R$10,00, R$200,00)                           | Preço negativo ou igual a 0 (ex: -R$10,00, R$0,00)                     |
-|                                         | Imagem do Produto          | Imagem no formato JPEG ou PNG com tamanho aceitável (ex: 1MB)                  | Imagem no formato inválido (ex: GIF, BMP) ou imagem de tamanho muito grande (>10MB) |
-| **3 - Cadastro de usuário**            | Nome Completo              | Nome válido com até 100 caracteres                                             | Nome vazio ou muito curto (menos de 3 caracteres)                       |
-|                                         | E-mail                     | E-mail com formato correto (ex: "usuario@dominio.com")                         | E-mail inválido ou vazio (ex: "usuario@dominio", "usuario@.com", vazio) |
-|                                         | Senha                      | Senha válida com pelo menos 8 caracteres, incluindo números e letras           | Senha com menos de 8 caracteres ou sem números/ letras                   |
-| **4 - Adicionar item ao carrinho**     | Quantidade de Itens        | Quantidade positiva e maior que 0 (ex: 1, 2, 3)                               | Quantidade negativa ou igual a 0 (ex: -1, 0)                           |
-|                                         | Produto                    | Produto disponível no estoque                                                 | Produto fora de estoque                                                 |
-| **5 - Finalizar pedido sem cupom**     | Pedido com valor superior a R$50,01  | Pedido com valor superior a R$50,01                                            | Pedido com valor inferior ou igual a R$50,00                            |
-|                                         | Status de pagamento        | Pagamento aprovado                                                            | Pagamento reprovado                                                     |
-| **6 - Atualizar dados do produto**     | Nome do Produto            | Nome válido com até 50 caracteres                                              | Nome vazio ou com mais de 50 caracteres                                 |
-|                                         | Preço do Produto           | Preço superior a 0,00                                                          | Preço negativo ou 0,00                                                   |
-|                                         | Quantidade disponível      | Quantidade de produto maior que 0                                              | Quantidade de produto igual a 0                                         |
-| **7 - Remover produto do carrinho**    | Produto no Carrinho        | Produto presente no carrinho de compras                                        | Produto não está no carrinho                                            |
-|                                         | Quantidade no Carrinho     | Quantidade maior que 0                                                        | Quantidade igual a 0 ou negativa                                        |
-| **8 - Alterar endereço de entrega**    | Endereço de Entrega        | Endereço completo e válido (ex: Rua X, nº 100, Bairro Y, Cidade Z)             | Endereço inválido ou incompleto (ex: Rua X, nº 100, Bairro Y)          |
-|                                         | CEP                        | CEP válido (ex: 12345-678)                                                    | CEP inválido (ex: 12345678, vazio)                                      |
-| **9 - Cadastro de pagamento**          | Cartão de Crédito          | Número de cartão válido (ex: 4111 1111 1111 1111)                             | Número de cartão inválido (ex: 1234 5678 8765 4321, vazio)            |
-|                                         | Data de Vencimento         | Data de vencimento válida (ex: 12/25)                                          | Data de vencimento inválida (ex: 13/99, mês 0)                         |
-| **10 - Buscar produtos no catálogo**   | Palavra-chave              | Palavra-chave válida (ex: "camisa", "notebook", "smartphone")                  | Palavra-chave inválida ou vazia (ex: "1234", vazio)                     |
-|                                         | Categoria                  | Categoria válida (ex: "eletrônicos", "roupas", "acessórios")                   | Categoria inválida ou não existente (ex: "brinquedos", "gadgets")      |
-
----
-## **Formulário de Aceitação**
-As perguntas a seguir usarão a escala de 1 (Discordo totalmente) a 5 (Concordo totalmente).  
-
-### **Perguntas**
-1. Achei o aplicativo fácil de usar.  
-2. A navegação entre as telas foi intuitiva.  
-3. A aparência do aplicativo é agradável e profissional.  
-4. As informações exibidas no aplicativo são claras e fáceis de entender.  
-5. O aplicativo responde rapidamente às minhas ações.  
-6. O processo de cadastro de produtos foi simples e direto.  
-7. Foi fácil alterar informações de um produto cadastrado.  
-8. Configurar o nome e a imagem do negócio foi fácil e sem complicações.  
-9. O aplicativo exibiu mensagens claras ao inserir dados inválidos.  
-10. Recebi notificações ou mensagens claras ao completar ações no sistema.  
-11. A funcionalidade de busca encontrou os produtos esperados de forma eficaz.  
-12. Excluir produtos foi um processo simples e direto.  
-13. O layout do aplicativo se ajusta bem ao redimensionar a janela.  
-14. Consegui utilizar o aplicativo com o teclado ou sem precisar de mouse.  
-15. Estou satisfeito com a experiência geral de uso do aplicativo.  
+| ID | Descrição do Problema | Fator de Usabilidade / Heurística Violada |
+| --- | --------------------- | ----------------------------------------- |
+| 1 | Proporções das janelas de alerta são grandes, enquanto a tela principal é pequena | Estética e Design Minimalista |
+| 2 | Menu para editar horário está em abas menores, dificultando a localização | Reconhecimento em vez de Memorização |
+| 3 | Tela de edição do horário de funcionamento é confusa e difícil de entender | Consistência e Padrões |
+| 4 | Falha ao excluir bairro sem orientação clara sobre a necessidade de desativação | Prevenção de Erros e Feedback do Sistema |
+| 5 | Palavras no menu para emitir relatórios não são claras | Compatibilidade entre o Sistema e o Mundo Real |
+| 6 | Botões de "Adicionar" são iguais para tarefas diferentes | Consistência e Padrões |
