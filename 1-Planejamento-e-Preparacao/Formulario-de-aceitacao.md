@@ -5,7 +5,7 @@ As perguntas a seguir usarão a escala de 1 (Discordo totalmente) a 5 (Concordo 
 |---------------------|-----------------------|--------|-----------------------|---------------------|
 
 
-| **#** | **Pergunta**                                                                                      |
+| **Ordem** | **Perguntas**                                                                                      |
 |-------|---------------------------------------------------------------------------------------------------|
 | 1     | Achei o aplicativo fácil de usar.                                                                  |
 | 2     | A navegação entre as telas foi intuitiva.                                                          |
