@@ -66,4 +66,4 @@ A demonstração dos resultados e a entrega do relatório documentarão os achad
 
 ---  
 
-Este repositório contém todos os documentos, scripts e formulários utilizados na execução do trabalho.  
+Este repositório contém todos os documentos e formulários utilizados na execução do trabalho.  
