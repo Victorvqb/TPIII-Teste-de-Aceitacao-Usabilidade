@@ -5,10 +5,10 @@
 Os vídeos dos testes de usabilidade realizados estão disponíveis nas seguintes pastas do Google Drive:
 
 1. **Testes de Usabilidade - Participantes 1 a 4**
-   - [Clique aqui para acessar os vídeos](https://drive.google.com/drive/folders/1fiVEK8JulA45OqOQcSEDvREbRUnyrAg2?usp=drive_link)
+   - [Clique aqui para acessar os vídeos] ps: os vídeos e arquivos sensíveis não estão mais disponíveis para manter os dados dos participantes protegidos após a apresentação em sala.
 
 2. **Testes de Usabilidade - Participantes Adicionais**
-   - [Clique aqui para acessar os vídeos](https://drive.google.com/drive/folders/1snrAn3ouUU1xgE9o1nmM9kEpmAirjrtA?usp=drive_link)
+   - [Clique aqui para acessar os vídeos]
 
 ## Descrição dos Vídeos
 
